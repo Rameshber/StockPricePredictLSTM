@@ -1,6 +1,7 @@
-streamlit==0.89.0  # Use the version you need
-yfinance==0.1.63   # Use the version you need
+streamlit==0.89.0
+matplotlib==3.4.3
+yfinance==0.1.63   
 pandas
 numpy
 scikit-learn
-tensorflow==2.6.0  # Use the version you need
+tensorflow==2.6.0 
