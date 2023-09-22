@@ -13,8 +13,8 @@ model = load_model(r'keras_model.h5')
 st.title('Stock Trend Prediction')
 
 #Start and End
-start = '2010-01-01'
-end = '2019-12-31'
+start = '2020-01-01'
+end = '2023-09-21'
 
 #User Input
 user_input = st.text_input("Enter Stock Ticker", 'AAPL')
@@ -23,7 +23,7 @@ user_input = st.text_input("Enter Stock Ticker", 'AAPL')
 #making df
 df = yf.download(user_input, start,end)
 df = df.reset_index()
-st.subheader('Data from 2010 - 2019')
+st.subheader('Data from 2020 - 2023')
 st.write(df.describe())
 
 #Visualization
