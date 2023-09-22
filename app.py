@@ -7,7 +7,7 @@ import streamlit as st
  
 
 
-model = load_model(r'C:\Users\Anush Goswami\Desktop\StockPredictLSTM\keras_model.h5')
+model = load_model(r'keras_model.h5')
 
 # Title
 st.title('Stock Trend Prediction')
