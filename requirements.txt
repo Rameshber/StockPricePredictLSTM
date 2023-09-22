@@ -1,0 +1,6 @@
+streamlit==0.89.0  # Use the version you need
+yfinance==0.1.63   # Use the version you need
+pandas
+numpy
+scikit-learn
+tensorflow==2.6.0  # Use the version you need
